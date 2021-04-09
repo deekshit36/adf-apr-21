@@ -12,6 +12,7 @@
 		"connectVia": {
 			"referenceName": "irSelfHosted",
 			"type": "IntegrationRuntimeReference"
-		}
+		},
+		"description": "edit"
 	}
 }
