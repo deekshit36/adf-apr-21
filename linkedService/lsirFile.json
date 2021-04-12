@@ -2,17 +2,17 @@
 	"name": "lsirFile",
 	"type": "Microsoft.DataFactory/factories/linkedservices",
 	"properties": {
+		"description": "edit",
 		"annotations": [],
 		"type": "FileServer",
 		"typeProperties": {
 			"host": "c:\\ir",
-			"userId": "vmApr21\\atingupta2006",
-			"encryptedCredential": "eyJDcmVkZW50aWFsSWQiOiJhZGJjNjkyZS01ZjU0LTQ4ZjktYjUyOS1lMTllN2QwNjVkNTkiLCJWZXJzaW9uIjoiMi4wIiwiQ2xhc3NUeXBlIjoiTWljcm9zb2Z0LkRhdGFQcm94eS5Db3JlLkludGVyU2VydmljZURhdGFDb250cmFjdC5DcmVkZW50aWFsU1UwNkNZMTQifQ=="
+			"userId": "vmApr21\\deekshit36",
+			"encryptedCredential": "eyJDcmVkZW50aWFsSWQiOiIxMTlmOTQzMS05ZWQ4LTQ5NmYtYTAxNS0xZmE5NmRjZmEyOTgiLCJWZXJzaW9uIjoiMi4wIiwiQ2xhc3NUeXBlIjoiTWljcm9zb2Z0LkRhdGFQcm94eS5Db3JlLkludGVyU2VydmljZURhdGFDb250cmFjdC5DcmVkZW50aWFsU1UwNkNZMTQifQ=="
 		},
 		"connectVia": {
-			"referenceName": "irSelfHosted",
+			"referenceName": "integrationRuntime1",
 			"type": "IntegrationRuntimeReference"
-		},
-		"description": "edit"
+		}
 	}
 }
